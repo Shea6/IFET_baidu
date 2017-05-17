@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    background: #ccc;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #333;
+    overflow: hidden;
+}
+
+.header img {
+    display: inline-block;
+    float: left;
+    margin: -10px 0 0 10px;
+}
+
+.nav {
+    float: right;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+.nav li {
+    width: 74px;
+    float: left;
+    margin-left: 10px;
+    font-size: 0.8em;
+}
+
+.nav li a {
+    color: #fff;
+}
+
+.nav li .nav-a {
+    color: #97948f;
+}
+
+
+/*header*/
+
+.one {
+    width: 65%;
+    height: 773px;
+    border: 1px solid #cbcbcb;
+    background: #fff;
+    margin: 19px;
+}
+
+.one h1 {
+    padding-top: 39px;
+    padding-left: 21px;
+}
+
+.one h2 {
+    padding-top: 23px;
+    padding-left: 21px;
+}
+
+.one span {
+    display: inline-block;
+    padding-top: 19px;
+    padding-left: 21px;
+}
+
+.one .p1 {
+    padding: -top: 21px;
+    padding-left: 21px;
+    line-height: 20px;
+    text-indent: 25px
+}
+
+.one img {
+    margin: 25px 0 0 21px;
+}
+
+.one .p2 {
+    padding-bottom: 40px;
+}
+
+.one ul li {
+    margin: 20px 0 0 41px;
+    line-height: 14px;
+    list-style: none;
+}
+
+
+/*img*/
+
+.img {
+    width: 65%;
+    height: 100%;
+    border-bottom: 1px solid #cbcbcb;
+    background: #fff;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.img h2 {
+    padding: 40px 0 0 22px;
+}
+
+.img div {
+    width: 120px;
+    height: 124px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 33px -10px -13px 30px;
+}
+
+.img p {
+    padding: 10px 0 6px;
+    text-align: center;
+}
+
+.img2 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+/*侧边栏*/
+
+.right {
+    float: right;
+    width: 404px;
+    height: 469px;
+    background: #fff;
+    margin: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.right p,
+input,
+span {
+    font-size: 14px;
+    color: #350038;
+}
+
+.right .bar {
+    width: 3px;
+    height: 38px;
+    background: #ccc;
+    margin: 20px 0 0 20px;
+    display: inline-block;
+}
+
+.right h3 {
+    float: right;
+    padding: 31px 58px 0 0;
+}
+
+.right .emil {
+    padding: 17px 0 0 33px;
+}
+
+.right .mail {
+    width: 127px;
+    height: 20px;
+    font-size: 12px;
+    color: #111;
+    margin-left: 8px;
+}
+
+.right .site {
+    padding: 12px 0 0 142px;
+    color: #ccc;
+}
+
+.right .pass {
+    padding: 30px 0 0 57px;
+}
+
+.right .pass2 {
+    padding: 20px 0 0 29px;
+}
+
+.right .pro {
+    padding: 12px 0 0 143px;
+    color: #ccc;
+}
+
+.right .sex,
+.city,
+.intst {
+    padding: 17px 0 0 93px;
+}
+
+.right .sexs {
+    background: #37a6ff;
+}
+
+.ins,
+.sexs,
+.citys {
+    margin-top: 17px;
+}
+
+.pep {
+    padding: 17px 0 0 69px;
+    display: inline-block;
+}
+
+.my {
+    width: 207px;
+    height: 98px;
+    margin: 14px 40px 0 0;
+    font-size: 20px;
+    float: right;
+}
+
+.right .sub {
+    width: 321px;
+    height: 39px;
+    border-radius: 10px;
+    background: #3355d0;
+    margin: 15px auto;
+}
+
+
+/*last*/
+
+.last {
+    width: 65%;
+    height: 100%;
+    background: #fff;
+    margin: 18px 0 0 22px;
+}
+
+.last h2 {
+    padding: 40px 0 0 23px;
+}
+
+.last h3 {
+    padding: 21px 0 0 23px;
+    color: #ccc;
+}
+
+.last span {
+    padding: 19px 0 0 21px;
+}
+
+.last ol {
+    margin: 22px 0 0 43px;
+}
+
+.last table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.last table th,
+td {
+    border: 1px solid #000;
+}
+
+.last table .num {
+    border-left: none;
+}
+
+.last table .num1 {
+    border-right: none;
+}
+
+.last .nub {
+    background: #ccc;
+}
+
+.last .tb-head {
+    background: #333;
+    color: #fff;
+}
+
+.tb-head th {
+    text-align: left;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+}
